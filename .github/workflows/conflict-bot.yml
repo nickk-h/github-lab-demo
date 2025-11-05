@@ -1,3 +1,4 @@
+
 name: Auto Conflict Creator
 
 on:
@@ -30,8 +31,3 @@ jobs:
           git add $FILENAME
           git commit -m "Auto: Created $FILENAME to trigger merge conflict"
           git push origin main
-Next, we push our changes to GitHub repo.
-
-git add .
-git commit -m "Adding GitHub Action for Auto Conflict File creation"
-git push
